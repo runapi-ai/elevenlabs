@@ -1,0 +1,10 @@
+{
+  "name": "elevenlabs",
+  "version": "0.2.1",
+  "description": "RunAPI ElevenLabs skill for Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents",
+  "skills": [
+    {
+      "path": "skills/elevenlabs/SKILL.md"
+    }
+  ]
+}
