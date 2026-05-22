@@ -1,6 +1,23 @@
-# ElevenLabs API Skill for RunAPI
+<p align="center">
+  <a href="https://github.com/runapi-ai/elevenlabs">
+    <h3 align="center">ElevenLabs API Skill for RunAPI</h3>
+  </a>
+</p>
+
+<p align="center">
+  Install this agent skill, inspect ElevenLabs fields, then run jobs through the RunAPI CLI.
+</p>
+
+<p align="center">
+  <a href="https://runapi.ai/models/elevenlabs.md"><strong>Model Reference</strong></a> · <a href="https://skills.sh/runapi-ai/elevenlabs"><strong>Install Skill</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/elevenlabs-sdk"><strong>SDK</strong></a>
+</p>
+
+<div align="center">
 
 [![skills.sh](https://skills.sh/b/runapi-ai/elevenlabs)](https://skills.sh/runapi-ai/elevenlabs)
+
+</div>
+<br/>
 
 Generate speech, dialogue, sound effects, transcriptions, and isolated audio with the ElevenLabs SDK. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate ElevenLabs through RunAPI.
 
