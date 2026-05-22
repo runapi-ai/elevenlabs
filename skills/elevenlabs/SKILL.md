@@ -4,6 +4,17 @@ description: Generate and process audio (text-to-speech, multi-voice text-to-dia
 documentation: https://runapi.ai/models/elevenlabs
 provider_page: https://runapi.ai/providers/elevenlabs
 catalog: https://runapi.ai/models
+metadata:
+  openclaw:
+    homepage: https://runapi.ai/models/elevenlabs
+    primaryEnv: RUNAPI_API_KEY
+    requires:
+      env:
+      - RUNAPI_API_KEY
+    envVars:
+    - name: RUNAPI_API_KEY
+      required: true
+      description: RunAPI API key from https://runapi.ai/api_keys.
 ---
 
 # @runapi.ai/elevenlabs — RunAPI.ai Elevenlabs audio generation
@@ -22,7 +33,7 @@ Set your API key in the environment:
 
 ```dotenv
 # .env
-RUNAPI_API_KEY=runapi_xxx   # get one at https://runapi.ai/settings/api_keys
+RUNAPI_API_KEY=runapi_xxx   # get one at https://runapi.ai/api_keys
 ```
 
 ```ts

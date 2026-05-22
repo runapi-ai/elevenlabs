@@ -1,5 +1,7 @@
 # ElevenLabs API Skill for RunAPI
 
+[![skills.sh](https://skills.sh/b/runapi-ai/elevenlabs)](https://skills.sh/runapi-ai/elevenlabs)
+
 Generate speech, dialogue, sound effects, transcriptions, and isolated audio with the ElevenLabs SDK. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate ElevenLabs through RunAPI.
 
 The canonical agent file is `skills/elevenlabs/SKILL.md`.
