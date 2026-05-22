@@ -16,9 +16,6 @@
 
 [![skills.sh](https://www.skills.sh/b/runapi-ai/elevenlabs)](https://www.skills.sh/runapi-ai/elevenlabs/elevenlabs)
 [![ClawHub](https://img.shields.io/badge/ClawHub-runapi--elevenlabs-111827)](https://clawhub.ai/runapi-ai/runapi-elevenlabs)
-[![Model Reference](https://img.shields.io/badge/Model%20Reference-runapi.ai-0f766e)](https://runapi.ai/models/elevenlabs)
-[![RunAPI CLI](https://img.shields.io/badge/RunAPI-CLI-111827)](https://github.com/runapi-ai/cli)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-skills.sh-2563eb)](https://www.skills.sh/runapi-ai)
 [![License](https://img.shields.io/github/license/runapi-ai/elevenlabs)](https://github.com/runapi-ai/elevenlabs/blob/main/LICENSE)
 
 </div>
@@ -54,7 +51,7 @@ import { ElevenlabsClient } from '@runapi.ai/elevenlabs';
 
 const client = new ElevenlabsClient();
 const result = await client.textToSpeech.run({
-  model: 'text-to-speech-turbo-2-5',
+  model: 'text-to-speech-turbo-v2.5',
   text: 'Hello from RunAPI.',
   voice: 'Rachel',
 });
