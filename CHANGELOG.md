@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.2.9](https://github.com/runapi-ai/elevenlabs/releases/tag/v0.2.9) - 2026-08-12
+
+### Changed
+- Generate the elevenlabs skill from the shared RunAPI recipe with contract-discovered request rules and task behavior, direct local media inputs, complete result verification, and bounded recovery.
+
+
 ## [v0.2.8](https://github.com/runapi-ai/elevenlabs/releases/tag/v0.2.8) - 2026-08-10
 
 ### Changed
